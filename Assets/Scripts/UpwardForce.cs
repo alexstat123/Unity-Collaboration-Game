@@ -12,6 +12,6 @@ public class UpwardForce : MonoBehaviour {
 	}
 	
 	void FixedUpdate() {
-		rb.AddForce(Vector3.up * thrust);
+		rb.AddForce(Vector3.up * thrust * Time.deltaTime);
 	}
 }
