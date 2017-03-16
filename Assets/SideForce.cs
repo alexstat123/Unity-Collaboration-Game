@@ -1,0 +1,1 @@
+﻿using System.Collections; using System.Collections.Generic; using UnityEngine;  public class SideForce : MonoBehaviour { 	public float thrust;  	private Rigidbody rb;  	void Start () { 		rb = GetComponent<Rigidbody>(); 	}  	void FixedUpdate() { 		rb.AddForce(Vector3.forward * thrust * Time.deltaTime); 		//rb.AddForce (thrust * Time.deltaTime,0,0); 	} } 
