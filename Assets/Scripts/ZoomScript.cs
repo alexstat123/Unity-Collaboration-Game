@@ -17,7 +17,7 @@ public class ZoomScript : MonoBehaviour {
 	void Update () {
 		
 		zoomfunction ();
-		Debug.Log (initialZoom);
+		//Debug.Log (initialZoom);
 	}
 
 

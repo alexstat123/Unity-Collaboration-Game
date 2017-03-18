@@ -11,7 +11,6 @@ public class Attacher : MonoBehaviour {
 		var joint = GetComponent<FixedJoint>();
 		joint.connectedBody = attachTo;
 		
-		
 	}
 	
 }
